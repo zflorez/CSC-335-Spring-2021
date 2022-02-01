@@ -4,7 +4,7 @@ import java.util.Random;
 /**
  * 
  * @author Zachary Florez
- * @course CSC 252
+ * @course CSC 335
  * @class MastermindModel
  *
  */
