@@ -14,10 +14,10 @@ public class MastermindModel {
 	private String answer = new String();
 	private String[] colors = {"r", "o", "y", "g", "b", "p"};
 	
-	/*
-	 * Constructor, no parameters are needed, creates a model 
-	 * from scratch brand new every time. 
-	 */
+    /*
+     * Constructor, no parameters are needed, creates a model 
+     * from scratch brand new every time. 
+     */
     public MastermindModel() { 
     	
     	this.answer = "";
@@ -43,10 +43,9 @@ public class MastermindModel {
      * @param answer A string that represents the four color solution
      */
     public MastermindModel(String answer) {
-    	// TODO Take answer and somehow store it as your answer. Make sure the getColorAt method 
-    	// still works
     	this.answer = answer;
     }
+	
 
     /**
      * This method gets the specific color at index "index" when seeing if 
@@ -55,8 +54,10 @@ public class MastermindModel {
      * @return: char at specified index in answer. 
      */
     public char getColorAt(int index) {
+	    
           /* Return color at position index as a char
            (first converted if stored as a number) */
     	return this.answer.charAt(index);
     }   
+	
 }
