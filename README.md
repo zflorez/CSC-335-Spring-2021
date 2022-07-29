@@ -12,4 +12,4 @@ Projects include:
 * Reversi (Group of 2 Project) 
 * Todo Board (Group of 4 Proejct) 
 
-Email me @zsf@arizona.edu if you have any questions about the projects / implementation approaches :) 
+Email me @ zsf@arizona.edu if you have any questions about the projects / implementation approaches :) 
